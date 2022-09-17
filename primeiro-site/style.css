@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* CSS da página inicial */
+header {
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+.inicio {
+    background-color: #000000;
+    border: 1.2px solid #000000;
+}
+
+hr {
+    background-color: #C78C19;
+    border: 1.2px solid #C78C19;
+}
+
+.container {
+    min-width: 360px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 215px;
+    right: 3%;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0 0 0 20px;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+main {
+    min-width: 360px;
+    max-width: 960px;
+    margin: 50px auto;
+}
+
+.principal {
+    padding: 30px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titulo-principal {
+    background-color: #c78d1928;
+    border-radius: 8px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
+.principal p {
+    text-align: center;
+}
+
+.kit-barbearia {
+    display: inline-block;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    border: 2px solid #C78C19;
+    border-radius: 10px; 
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.principal strong {
+    color: #C78C19;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.beneficios {
+    background-color: #FFF;
+    margin-top: 15%;
+    padding: 20px;
+}
+
+.grupo-beneficios {
+    display: flex;
+    align-items: center;
+}
+
+
+.conteudo-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-right: 15%;
+    padding: 5px 20px ;
+    line-height: 1.5;
+}
+
+.imagemBeneficios {
+    display: block;
+    width: 65%;
+    margin: 10px auto;
+    border: 2px solid #C78C19;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: 400ms;
+}
+
+.imagemBeneficios:hover {
+    opacity: 1;
+}
+
+.video iframe {
+    width: 100%;
+    margin: 1em auto;
+    border: 2px solid #C78C19;
+    border-radius: 10px;
+}
+
+.mapa {
+    padding: 20% 0;
+}
+
+.mapa p {
+    text-align: center;
+    padding: 0 10px 15px;
+    margin: 0 0 2em;
+}
+
+.localizacao {
+    margin: 0 15px;
+    border: 3px solid #C78C19;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background-image: url(imagens-logo/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .conteudo-beneficios , .imagemBeneficios {
+        width: 100%;
+    }
+}
+
+@keyframes kitbarbearia {
+    
+}
