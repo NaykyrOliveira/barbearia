@@ -61,7 +61,6 @@ form label {
 
 .input-padrao {
     display: block;
-    margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
 }
@@ -130,5 +129,13 @@ footer {
 
     .enviar {
         width: 100%;
+    }
+
+    .input-padrao {
+        width: 90%;
+    }
+
+    table {
+        margin: 0 auto 40px;
     }
 }
