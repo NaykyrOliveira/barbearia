@@ -11,6 +11,9 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
+![image](https://github.com/user-attachments/assets/0ce2dd38-9618-47d0-a9f0-f4d726e95b33)
+
+
 <br>
 
 ## 🚀 Tecnologias
